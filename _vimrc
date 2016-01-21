@@ -29,8 +29,10 @@ set autoindent
 
 " 内部文字コード
 set encoding=utf-8
+" 書き込み文字コード
+set fileencoding=utf-8
 " 読み込み文字コード
-set fileencodings=iso-2022-jp,euc-jp,cp932,utf-8
+set fileencodings=utf-8,euc-jp,cp932,iso-2022-jp
 " 改行コード
 set fileformats=unix,dos,mac
 
