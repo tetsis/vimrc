@@ -75,30 +75,6 @@ let g:netrw_liststyle = 3
 imap <C-j> <esc>
 
 "------------------------------------------------------------------
-" 色設定
-" 8     SpecialKey      スペシャルキー、^@など表示できない文字
-" @     NonText EOF以降の~など
-" d     Directory       CTRL-Dで表示したディレクトリ
-" e     ErrorMsg        エラーメッセージ
-" f     Folded  折り畳まれた行
-" F     FoldColumn      フォールドコラム
-" i     IncSearch       インクリメンタルサーチの結果
-" l     Search  最後の検索結果
-" m     MoreMsg -- 継続 -- のようなMoreメッセージ
-" M     ModeMsg -- 挿入 -- などのモードメッセージ
-" n     LineNr  行番号
-" r     Question        hit-enterやyes/noなどの質問
-" s     StatusLine      ステータスライン
-" S     StatusLineNC    アクティブではないウィンドウのステータスライン
-" t     Title   :set allや:autocmdなどで表示される「--- オプション ---」のような文字
-" c     VertSplit       縦方向へのスプリットの境界
-" v     Visual  ビジュアルモードの選択範囲
-" V     VisualNOSビジュアルモードの選択範囲(Vimがアクティブではないとき)
-" w     WarningMsg      警告メッセージ
-" W     WildMenu        ワイルドメニュー
-" たとえば、set highlight=n:ErrorMsgとすると、行番号がErrorMsgで指定した色に設定される。
-"
-
 " 全角スペース可視化
 scriptencoding utf-8
 augroup highlightIdegraphicSpace
