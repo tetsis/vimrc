@@ -49,6 +49,8 @@ set listchars=tab:^_,trail:~
 set list
 " 入力中のコマンドを表示
 set showcmd
+" 長い一行をきちんと表示
+set display=lastline
 
 "------------------------------------------------------------------
 "ステータスライン関係
