@@ -21,6 +21,10 @@ set tabstop=4
 set expandtab
 " インデント設定  autoindent,smartindent,cindent
 set autoindent
+" swapファイル設定
+set noswapfile
+"バックアップの設定
+set nobackup
 
 "------------------------------------------------------------------
 " 文字コード設定
