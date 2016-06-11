@@ -53,6 +53,8 @@ set showcmd
 set display=lastline
 " 補完メニューの高さ
 set pumheight=10
+" ビープ音の設定
+set visualbell
 
 "------------------------------------------------------------------
 "ステータスライン関係
